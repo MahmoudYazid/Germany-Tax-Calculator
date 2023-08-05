@@ -1,0 +1,47 @@
+.SecondPart{
+     
+    min-width: 50%;
+    height: 100vh;
+    background: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+
+    
+}
+.BarContainer , .HeaderContainer{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+.HeaderContainer{
+  display: flex;
+  background: #000;
+  align-content: end;
+  align-items: end;
+  justify-content: center;
+  justify-items: center;
+}
+.Text{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.BarContainer{
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  align-content: start;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+ 
+}
+.TextContainer{
+  color: white;
+}
+.Bar{
+  width: 100%;
+  
+   border: 10% white solid;
+}
